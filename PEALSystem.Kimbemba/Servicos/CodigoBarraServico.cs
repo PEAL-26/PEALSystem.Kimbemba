@@ -57,7 +57,13 @@ namespace PEALSystem.Kimbemba.Servicos
 
         public async Task<Resultado> RemoverTodos()
         {
-            _codigoBarraRepositorio.RemoverTodos();
+            var todosCodigosBarra = await ListarTodos();
+            
+            foreach (var item in todosCodigosBarra)
+            {
+                _codigoBarraRepositorio.Remover(item);
+            }
+
             if (await _uOw.Commit()) return new Resultado(true, "Todos Códigos de barra removido com sucesso.");
             else await _uOw.Rollback();
 
