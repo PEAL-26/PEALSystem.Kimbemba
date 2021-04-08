@@ -1,6 +1,8 @@
 ﻿using PEALSystem.Kimbemba.Models;
 using PEALSystem.Kimbemba.Repositorios.Interfaces;
+using PEALSystem.Kimbemba.SeedWorks;
 using PEALSystem.Kimbemba.Servicos.Interfaces;
+using PEALSystem.Kimbemba.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
@@ -19,44 +21,47 @@ namespace PEALSystem.Kimbemba.Servicos
             _uOw = uOw;
         }
 
-        public async Task Inserir(CodigoBarra obj)
+        public async Task<Resultado> Gerar(GerarCodigoBarraViewModel obj)
         {
-            await _codigoBarraRepositorio.Inserir(obj);
-            await _uOw.Commit();
-        }
-
-        public async void Alterar(CodigoBarra obj)
-        {
-            _codigoBarraRepositorio.Alterar(obj);
-            await _uOw.Commit();
-        }
-
-
-        public async Task GerarCodigoBarra(int qtd)
-        {
-            for (int i = 1; i <= qtd; i++)
+            int count = 0;
+            for (int i = 1; i <= obj.Quantidade; i++)
             {
                 string codigo = $"123456789{i}",
                     codigoAEN = $"123456789{i}";
 
-                if ( await Existe(codigo) || await Existe(codigoAEN))
-                {
-                    qtd++;
-                    continue;
-                }
+                if (await Existe(codigo) || await Existe(codigoAEN)) continue;
 
-                var codigoBarra = new CodigoBarra(codigo, codigoAEN, i);
+                var codigoBarra = new CodigoBarra(codigo, codigoAEN, count++, obj.Data);
+
+                if (!codigoBarra.IsValid) return new Resultado(false, "Não foi possível gerar os códigos de barra.");
+
                 await _codigoBarraRepositorio.Inserir(codigoBarra);
+
             }
 
-            if (!await _uOw.Commit()) 
-                await _uOw.Rollback();
+            if (await _uOw.Commit()) return new Resultado(true, "Códigos de barra gerados com sucesso.");
+            else await _uOw.Rollback();
+
+            return new Resultado(false, "Não foi possível gerar os códigos de barra.");
         }
 
-        public async void Remover(CodigoBarra obj)
+        public async Task<Resultado> Remover(CodigoBarra obj)
         {
             _codigoBarraRepositorio.Remover(obj);
-            await _uOw.Commit();
+            if (await _uOw.Commit()) return new Resultado(true, "Código de barra removido com sucesso.");
+            else await _uOw.Rollback();
+
+            return new Resultado(false, "Não foi possível remover o código de barra.");
+        }
+
+
+        public async Task<Resultado> RemoverTodos()
+        {
+            _codigoBarraRepositorio.RemoverTodos();
+            if (await _uOw.Commit()) return new Resultado(true, "Todos Códigos de barra removido com sucesso.");
+            else await _uOw.Rollback();
+
+            return new Resultado(false, "Não foi possível remover os códigos de barra.");
         }
 
         public async Task<ICollection<CodigoBarra>> ListarTodos()
@@ -67,11 +72,6 @@ namespace PEALSystem.Kimbemba.Servicos
         public Task<ICollection<CodigoBarra>> Listar(Expression<Func<CodigoBarra, bool>> predicate = null)
         {
             return _codigoBarraRepositorio.Listar(predicate);
-        }
-
-        public async Task<CodigoBarra> BuscarPorId(int id)
-        {
-            return await _codigoBarraRepositorio.BuscarPorId(id);
         }
 
         public async Task<CodigoBarra> BuscarPorCodigo(string codigo)
@@ -90,5 +90,6 @@ namespace PEALSystem.Kimbemba.Servicos
 
             return false;
         }
+
     }
 }

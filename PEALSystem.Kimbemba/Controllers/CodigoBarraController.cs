@@ -24,28 +24,66 @@ namespace PEALSystem.Kimbemba.Controllers
         }
 
         [HttpPost]
-        public  async Task<IActionResult> GerarCodigoBarra(GerarCodigoBarraViewModel obj)
+        public async Task<IActionResult> GerarCodigoBarra(GerarCodigoBarraViewModel obj)
         {
-            try
-            {
+                var codigoBarra = await _codigoBarraServico.Gerar(obj);
 
-                if (obj.Quantidade <= 0) {
-                    ModelState.AddModelError("Quantidade","A quantidade tem que ser superior a zero (0).");
-                    return View(obj);
-                }
-            
-            await _codigoBarraServico.GerarCodigoBarra(obj.Quantidade);
-                        
-            return RedirectToAction(nameof(Index));
+                if (codigoBarra.Success) return RedirectToAction(nameof(Index));
+              
+            return View(obj);
 
-            }
-            catch (System.Exception)
-            {
-
-                return View("Error");
-            }
         }
 
-        
+        public async Task<IActionResult> Detalhes(string codigo)
+        {
+            if (string.IsNullOrWhiteSpace(codigo))  return NotFound();
+
+            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+
+            if (codigoBarra == null) return NotFound();
+
+            return View(codigoBarra);
+        }
+
+        public async Task<IActionResult> Remove(string codigo)
+        {
+            if (string.IsNullOrWhiteSpace(codigo))  return NotFound();
+
+            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+
+            if (codigoBarra == null) return NotFound();
+
+            return View(codigoBarra);
+        }
+
+        [HttpPost, ActionName("Remove")]
+        public async Task<IActionResult> RemoveConfirmed(string codigo)
+        {
+            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+
+            var resultado = await _codigoBarraServico.Remover(codigoBarra);
+
+            if (resultado.Success) return RedirectToAction(nameof(Index));
+
+            return View(codigoBarra);
+        }
+
+        public IActionResult RemoveAll()
+        {            
+            return View();
+        }
+
+        [HttpPost, ActionName("RemoveAll")]
+        public async Task<IActionResult> RemoveAllConfirmed()
+        {
+            var resultado = await _codigoBarraServico.RemoverTodos();
+
+            if (resultado.Success) return RedirectToAction(nameof(Index));
+
+            return View();
+        }
+
+
+
     }
 }

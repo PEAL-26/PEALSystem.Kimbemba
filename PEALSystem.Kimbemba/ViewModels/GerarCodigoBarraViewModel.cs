@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace PEALSystem.Kimbemba.ViewModels
 {
@@ -6,5 +7,7 @@ namespace PEALSystem.Kimbemba.ViewModels
     {
         [Required]
         public int Quantidade { get; set; }
+        [Required]
+        public DateTime Data { get; set; }
     }
 }

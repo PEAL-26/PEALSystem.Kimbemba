@@ -4,11 +4,13 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Lista de Códigos de Barra</h1>
 
 <p>
-    <a asp-action="GerarCodigoBarra">Gerar Código de Barra</a>
+    <a asp-action="GerarCodigoBarra" class="btn btn-success">Gerar Código de Barra</a>
+    <a asp-action="RemoveAll" class="btn btn-danger" >Remove Todos</a>
 </p>
+
 <table class="table">
     <thead>
         <tr>
@@ -23,9 +25,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Data)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsValid)
             </th>
             <th></th>
         </tr>
@@ -46,12 +45,8 @@
                 @Html.DisplayFor(modelItem => item.Data)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.IsValid)
-            </td>
-            <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                <a asp-action="Detalhes" asp-route-codigo="@item.Codigo">Detalhes</a> |
+                <a asp-action="Remove" asp-route-codigo="@item.Codigo">Remover</a>
             </td>
         </tr>
 }
