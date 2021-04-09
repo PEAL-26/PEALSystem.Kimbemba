@@ -48,14 +48,32 @@ namespace PEALSystem.Kimbemba.Repositorios
             DbSet.Remove(obj);
 
         public virtual async Task<ICollection<CodigoBarra>> ListarTodos() =>
-              await DbSet.AsNoTracking().ToListAsync();
+              await DbSet.AsNoTracking()
+                .OrderBy(c => c.Data)
+                .OrderBy(c => c.Numero)
+                .ToListAsync();
 
         public async Task<ICollection<CodigoBarra>> Listar(Expression<Func<CodigoBarra, bool>> predicate = null)
         {
             if (predicate != null)
                 return await DbSet.AsNoTracking().Where(predicate).ToListAsync();
 
-            return await DbSet.AsNoTracking().ToListAsync();
+            return await DbSet.AsNoTracking()
+                .OrderBy(c => c.Data)
+                .OrderBy(c => c.Numero)
+                .ToListAsync();
+        }
+
+        public async Task<int> BuscarUltimoNumeroPorData(DateTime data)
+        {
+            var codigoBarra = await DbSet.AsNoTracking()
+                .Where(d => d.Data.Date == data.Date)
+                .OrderBy(c => c.Numero)
+                .LastOrDefaultAsync();
+
+            if (codigoBarra == null) return 0;
+
+            return codigoBarra.Numero;
         }
     }
 }

@@ -83,6 +83,16 @@ namespace PEALSystem.Kimbemba.Controllers
             return View();
         }
 
+        [HttpPost, ActionName("RemoveAll")]
+        public async Task<IActionResult> ExportarPDF()
+        {
+            var resultado = await _codigoBarraServico.RemoverTodos();
+
+            if (resultado.Success) return RedirectToAction(nameof(Index));
+
+            return View();
+        }
+
 
 
     }

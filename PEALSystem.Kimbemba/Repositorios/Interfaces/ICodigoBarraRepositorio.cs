@@ -15,5 +15,7 @@ namespace PEALSystem.Kimbemba.Repositorios.Interfaces
         Task<ICollection<CodigoBarra>> Listar(Expression<Func<CodigoBarra, bool>> predicate = null);
         Task<CodigoBarra> BuscarPorCodigo(string codigo);
         Task<CodigoBarra> BuscarPorCodigoAEN(string codigoAEN);
+        Task<int> BuscarUltimoNumeroPorData(DateTime data);
+
     }
 }

@@ -23,15 +23,19 @@ namespace PEALSystem.Kimbemba.Servicos
 
         public async Task<Resultado> Gerar(GerarCodigoBarraViewModel obj)
         {
-            int count = 0;
+            int count = await _codigoBarraRepositorio.BuscarUltimoNumeroPorData(obj.Data);
             for (int i = 1; i <= obj.Quantidade; i++)
             {
                 string codigo = $"123456789{i}",
                     codigoAEN = $"123456789{i}";
 
-                if (await Existe(codigo) || await Existe(codigoAEN)) continue;
+                if (await Existe(codigo) || await Existe(codigoAEN))
+                {
+                    obj.Quantidade++;
+                    continue;
+                }
 
-                var codigoBarra = new CodigoBarra(codigo, codigoAEN, count++, obj.Data);
+                var codigoBarra = new CodigoBarra(codigo, codigoAEN, ++count, obj.Data);
 
                 if (!codigoBarra.IsValid) return new Resultado(false, "Não foi possível gerar os códigos de barra.");
 
@@ -44,6 +48,7 @@ namespace PEALSystem.Kimbemba.Servicos
 
             return new Resultado(false, "Não foi possível gerar os códigos de barra.");
         }
+
 
         public async Task<Resultado> Remover(CodigoBarra obj)
         {
@@ -58,7 +63,7 @@ namespace PEALSystem.Kimbemba.Servicos
         public async Task<Resultado> RemoverTodos()
         {
             var todosCodigosBarra = await ListarTodos();
-            
+
             foreach (var item in todosCodigosBarra)
             {
                 _codigoBarraRepositorio.Remover(item);
