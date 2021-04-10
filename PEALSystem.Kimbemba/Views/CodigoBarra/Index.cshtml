@@ -40,7 +40,9 @@
 @foreach (var item in Model) {
         <tr>
             <td>
+                <barcode content="@item.Codigo" width="300" height="30" />
                 @Html.DisplayFor(modelItem => item.Codigo)
+               
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CodigoAEN)

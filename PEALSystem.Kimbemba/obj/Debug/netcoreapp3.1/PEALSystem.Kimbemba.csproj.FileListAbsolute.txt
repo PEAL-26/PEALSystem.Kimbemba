@@ -86,8 +86,6 @@ C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.pdb
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.genruntimeconfig.cache
-C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.csproj.CoreCompileInputs.cache
-C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.MvcApplicationPartsAssemblyInfo.cache
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -165,3 +163,15 @@ C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\Razor\Views\CodigoBarra\RemoveAll.cshtml.g.cs
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\Razor\Views\CodigoBarra\GerarCodigoBarra.cshtml.g.cs
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\Razor\Views\CodigoBarra\Detalhes.cshtml.g.cs
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\PdfSharpCore.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\SixLabors.Fonts.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\SixLabors.ImageSharp.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\de\PdfSharpCore.resources.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\zxing.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\PEALSystem.Kimbemba\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.MvcApplicationPartsAssemblyInfo.cache

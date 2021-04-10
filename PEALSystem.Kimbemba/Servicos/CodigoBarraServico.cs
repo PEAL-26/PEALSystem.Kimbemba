@@ -26,8 +26,11 @@ namespace PEALSystem.Kimbemba.Servicos
             int count = await _codigoBarraRepositorio.BuscarUltimoNumeroPorData(obj.Data);
             for (int i = 1; i <= obj.Quantidade; i++)
             {
-                string codigo = $"123456789{i}",
-                    codigoAEN = $"123456789{i}";
+                var random = new Random();
+                long valor = random.Next(1000000000);
+
+                string codigo = valor.ToString("0000000000000"),
+                    codigoAEN = codigo;
 
                 if (await Existe(codigo) || await Existe(codigoAEN))
                 {

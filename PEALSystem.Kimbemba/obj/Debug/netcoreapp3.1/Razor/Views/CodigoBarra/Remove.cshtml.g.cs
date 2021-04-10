@@ -27,7 +27,7 @@ using PEALSystem.Kimbemba.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d1ebdab219ca0ad19040516ac13cab8685751e03", @"/Views/CodigoBarra/Remove.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a968ff177068cd20047df076b4da276ebca2363c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03bb505039ace4b1c379df94c3b8faaa48f93962", @"/Views/_ViewImports.cshtml")]
     public class Views_CodigoBarra_Remove : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PEALSystem.Kimbemba.Models.CodigoBarra>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("type", "hidden", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

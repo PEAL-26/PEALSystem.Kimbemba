@@ -92,6 +92,10 @@
               "target": "Package",
               "version": "[3.1.5, )"
             },
+            "PdfSharpCore": {
+              "target": "Package",
+              "version": "[1.2.16, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[3.2.4, )"
@@ -99,6 +103,14 @@
             "Pomelo.EntityFrameworkCore.MySql.Design": {
               "target": "Package",
               "version": "[1.1.2, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.6, )"
             }
           },
           "imports": [

@@ -11,10 +11,10 @@
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
-           <barcode content="@Model.Codigo" width="200" height="100" />
+            @Html.DisplayNameFor(model => model.Codigo)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Codigo)
+            <barcode content="@Model.Codigo" width="300" height="30" />
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CodigoAEN)

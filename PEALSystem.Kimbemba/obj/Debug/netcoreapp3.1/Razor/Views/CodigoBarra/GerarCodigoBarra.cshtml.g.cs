@@ -27,7 +27,7 @@ using PEALSystem.Kimbemba.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3aa37dd883426ba9ec1ad902d4a6e9a7ebc44bfe", @"/Views/CodigoBarra/GerarCodigoBarra.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a968ff177068cd20047df076b4da276ebca2363c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"03bb505039ace4b1c379df94c3b8faaa48f93962", @"/Views/_ViewImports.cshtml")]
     public class Views_CodigoBarra_GerarCodigoBarra : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PEALSystem.Kimbemba.ViewModels.GerarCodigoBarraViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("text-danger"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
