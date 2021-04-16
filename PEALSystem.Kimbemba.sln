@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEALSystem.Kimbemba", "PEALSystem.Kimbemba\PEALSystem.Kimbemba.csproj", "{8C77F698-B4BC-4BEC-AE9D-FBCDD2CBFD58}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Apresentação", "01 - Apresentação", "{173CDA3D-39B7-445D-A41B-52136C380781}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Aplicação", "02 - Aplicação", "{430D897C-6C3D-468E-B9D3-8B852FDA43B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domínio", "03 - Domínio", "{D7CBBD2D-4EDC-41DB-8731-1116C73B2F7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infraestrutura", "04 - Infraestrutura", "{255CAEDA-29CC-4C84-9C67-7F774BBA5D25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{6B2E4BA7-FCAC-41C0-9AB6-A436307D66EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{9C901A27-09C0-4542-9293-9868B15BA9A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Apresentacao.ApsNetCore", "src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\PEALSystem.Kimbemba.Apresentacao.ApsNetCore.csproj", "{CFA47069-7C5A-457E-AF14-40EE766A1A88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Aplicacao", "src\PEALSystem.Kimbemba.Aplicacao\PEALSystem.Kimbemba.Aplicacao.csproj", "{7C84A4A8-0B0F-4559-A41B-B44A6508450F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Dominio", "src\PEALSystem.Kimbemba.Dominio\PEALSystem.Kimbemba.Dominio.csproj", "{604ED834-468E-457E-A7CF-2166A98BDD5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Infra.Data", "src\PEALSystem.Kimbemba.Infra.Data\PEALSystem.Kimbemba.Infra.Data.csproj", "{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Infra.CrossCutting", "src\PEALSystem.Kimbemba.Infra.CrossCutting\PEALSystem.Kimbemba.Infra.CrossCutting.csproj", "{BF425181-BED1-45EB-94A7-B65F20CBD4A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Infra.CrossCutting.IoC", "src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj", "{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEALSystem.Kimbemba.Apresentacao.Desktop", "src\PEALSystem.Kimbemba.Apresentacao.Desktop\PEALSystem.Kimbemba.Apresentacao.Desktop.csproj", "{3D9E555D-73AF-4CC8-8B05-92D5F9464159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +35,48 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8C77F698-B4BC-4BEC-AE9D-FBCDD2CBFD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C77F698-B4BC-4BEC-AE9D-FBCDD2CBFD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C77F698-B4BC-4BEC-AE9D-FBCDD2CBFD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C77F698-B4BC-4BEC-AE9D-FBCDD2CBFD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFA47069-7C5A-457E-AF14-40EE766A1A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA47069-7C5A-457E-AF14-40EE766A1A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA47069-7C5A-457E-AF14-40EE766A1A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA47069-7C5A-457E-AF14-40EE766A1A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C84A4A8-0B0F-4559-A41B-B44A6508450F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C84A4A8-0B0F-4559-A41B-B44A6508450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C84A4A8-0B0F-4559-A41B-B44A6508450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C84A4A8-0B0F-4559-A41B-B44A6508450F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604ED834-468E-457E-A7CF-2166A98BDD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604ED834-468E-457E-A7CF-2166A98BDD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604ED834-468E-457E-A7CF-2166A98BDD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604ED834-468E-457E-A7CF-2166A98BDD5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF425181-BED1-45EB-94A7-B65F20CBD4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF425181-BED1-45EB-94A7-B65F20CBD4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF425181-BED1-45EB-94A7-B65F20CBD4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF425181-BED1-45EB-94A7-B65F20CBD4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B2E4BA7-FCAC-41C0-9AB6-A436307D66EC} = {255CAEDA-29CC-4C84-9C67-7F774BBA5D25}
+		{9C901A27-09C0-4542-9293-9868B15BA9A8} = {255CAEDA-29CC-4C84-9C67-7F774BBA5D25}
+		{CFA47069-7C5A-457E-AF14-40EE766A1A88} = {173CDA3D-39B7-445D-A41B-52136C380781}
+		{7C84A4A8-0B0F-4559-A41B-B44A6508450F} = {430D897C-6C3D-468E-B9D3-8B852FDA43B4}
+		{604ED834-468E-457E-A7CF-2166A98BDD5D} = {D7CBBD2D-4EDC-41DB-8731-1116C73B2F7B}
+		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78} = {6B2E4BA7-FCAC-41C0-9AB6-A436307D66EC}
+		{BF425181-BED1-45EB-94A7-B65F20CBD4A2} = {9C901A27-09C0-4542-9293-9868B15BA9A8}
+		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5} = {9C901A27-09C0-4542-9293-9868B15BA9A8}
+		{3D9E555D-73AF-4CC8-8B05-92D5F9464159} = {173CDA3D-39B7-445D-A41B-52136C380781}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18ED386C-AFAD-4084-9BC1-04D2D3530C49}

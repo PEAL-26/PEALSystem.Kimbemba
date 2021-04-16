@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "V2yIJhPxm66IFDa9URoOcIEh0pxMT2/sQVtnBKBeAmbfvoqX1gooJ73hT2rCY2rFMU7BVe7SINwBnFB4p5JgvA==",
+  "success": true,
+  "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

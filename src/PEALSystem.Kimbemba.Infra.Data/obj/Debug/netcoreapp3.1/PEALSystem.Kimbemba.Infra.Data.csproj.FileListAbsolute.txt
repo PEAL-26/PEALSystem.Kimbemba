@@ -1,0 +1,12 @@
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.deps.json
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.runtimeconfig.json
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.runtimeconfig.dev.json
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.Data\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.genruntimeconfig.cache

@@ -1,0 +1,9 @@
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.deps.json
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.csprojAssemblyReference.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.AssemblyInfoInputs.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.AssemblyInfo.cs
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.csproj.CoreCompileInputs.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.pdb
