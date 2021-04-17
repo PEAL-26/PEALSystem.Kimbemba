@@ -1,7 +1,6 @@
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.deps.json
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.pdb
-C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.csprojAssemblyReference.cache
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.AssemblyInfoInputs.cache
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.AssemblyInfo.cs
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Dominio\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.csproj.CoreCompileInputs.cache

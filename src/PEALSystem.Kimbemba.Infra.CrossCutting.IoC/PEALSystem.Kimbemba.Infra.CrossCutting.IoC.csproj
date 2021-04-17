@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Aplicacao\PEALSystem.Kimbemba.Aplicacao.csproj" />
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Infra.Data\PEALSystem.Kimbemba.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

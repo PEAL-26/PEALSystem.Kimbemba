@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D/jpkEfoKCk070ZCHXDwzzZ4q5tWUbEzW6s457y0woNoiBDX8Z3sd7ZN3aSKFMR8f74QYQRojeI/pecqAfpgqg==",
+  "dgSpecHash": "OJd2/J5Cqd8Bifp5pntzz49d59CHwTE12wUcW49w7uUoK1b1mYCJcpVIWraOs9dQ6QSoPe1bVAzZMvKSy9v+oQ==",
   "success": true,
   "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Dominio\\PEALSystem.Kimbemba.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\flunt\\2.0.1\\flunt.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Rwe0UyVP+e2BumSsuzdnThsvE68or6kjVGmmDzvxiaytTqL5wjnEhN7GHBH1fGbLHj58O6T957wo8kt/qGQESw==",
+  "dgSpecHash": "pd4oJBq7l/N6KPaOzBYuNVAzedb3C//5R1pfpQBgViaHcwfxj5cSD85/E9Bfcxuoqngu/+yETf6z/78AVP5u8A==",
   "success": true,
   "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Infra.Data\\PEALSystem.Kimbemba.Infra.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Edila\\.nuget\\packages\\flunt\\2.0.1\\flunt.2.0.1.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

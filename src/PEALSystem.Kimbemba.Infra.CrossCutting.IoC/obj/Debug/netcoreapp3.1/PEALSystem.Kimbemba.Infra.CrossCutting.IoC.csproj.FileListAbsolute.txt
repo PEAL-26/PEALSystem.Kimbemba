@@ -7,3 +7,10 @@ C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj.CoreCompileInputs.cache
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Aplicacao.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Aplicacao.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj.CopyComplete

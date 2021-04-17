@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Dominio\PEALSystem.Kimbemba.Dominio.csproj" />
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Infra.Data\PEALSystem.Kimbemba.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -27,8 +27,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Infra.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PEALSystem.Kimbemba.Infra.CrossCutting.IoC", "src\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj", "{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEALSystem.Kimbemba.Apresentacao.Desktop", "src\PEALSystem.Kimbemba.Apresentacao.Desktop\PEALSystem.Kimbemba.Apresentacao.Desktop.csproj", "{3D9E555D-73AF-4CC8-8B05-92D5F9464159}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,10 +57,6 @@ Global
 		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3D9E555D-73AF-4CC8-8B05-92D5F9464159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,7 +70,6 @@ Global
 		{1DE82CAD-2C85-44D9-AB9E-F17EE0638A78} = {6B2E4BA7-FCAC-41C0-9AB6-A436307D66EC}
 		{BF425181-BED1-45EB-94A7-B65F20CBD4A2} = {9C901A27-09C0-4542-9293-9868B15BA9A8}
 		{1474B2D4-A8B0-46C7-95D9-BFBF0414FDE5} = {9C901A27-09C0-4542-9293-9868B15BA9A8}
-		{3D9E555D-73AF-4CC8-8B05-92D5F9464159} = {173CDA3D-39B7-445D-A41B-52136C380781}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18ED386C-AFAD-4084-9BC1-04D2D3530C49}

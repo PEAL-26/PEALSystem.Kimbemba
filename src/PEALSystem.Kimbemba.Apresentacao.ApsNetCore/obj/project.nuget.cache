@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YH0bZdi5afbKq3ay4Rwbxz6XG3S0P5EUaa/ND1HUsUVLZCltqDVz63RZ5je9/GHNNQ0U4luhcuE52NRTfogiGQ==",
+  "dgSpecHash": "O178LrhA70yXpU1p3H+ZbWMEBbAmUo7AicMgpeTDT6KP/cTZgZ6qx3HDhhG3RujiyFvNwg/CiZI7dB9p8vcRCg==",
   "success": true,
   "projectFilePath": "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\\PEALSystem.Kimbemba.Apresentacao.ApsNetCore.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,7 @@
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.12\\microsoft.extensions.dependencyinjection.3.1.12.nupkg.sha512",
-    "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.12\\microsoft.extensions.dependencyinjection.abstractions.3.1.12.nupkg.sha512",
+    "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
     "C:\\Users\\Edila\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",

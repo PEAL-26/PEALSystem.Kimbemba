@@ -3,8 +3,9 @@ using PdfSharpCore;
 using PdfSharpCore.Drawing;
 using PdfSharpCore.Drawing.Layout;
 using PdfSharpCore.Pdf;
-using PEALSystem.Kimbemba.Servicos.Interfaces;
-using PEALSystem.Kimbemba.ViewModels;
+using PEALSystem.Kimbemba.Aplicacao.Intertfaces;
+using PEALSystem.Kimbemba.Aplicacao.ViewModels;
+using PEALSystem.Kimbemba.Dominio.Entidades;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -12,15 +13,15 @@ namespace PEALSystem.Kimbemba.Controllers
 {
     public class CodigoBarraController : Controller
     {
-        private readonly ICodigoBarraServico _codigoBarraServico;
-        public CodigoBarraController(ICodigoBarraServico codigoBarraServico)
+        private readonly ICodigoBarraApp _codigoBarraApp;
+        public CodigoBarraController(ICodigoBarraApp codigoBarraApp)
         {
-            _codigoBarraServico = codigoBarraServico;
+            _codigoBarraApp = codigoBarraApp;
         }
 
         public async Task<IActionResult> Index()
         {
-            return View(await _codigoBarraServico.ListarTodos());
+            return View(await _codigoBarraApp.ListarTodos());
         }
 
         public IActionResult GerarCodigoBarra()
@@ -31,9 +32,9 @@ namespace PEALSystem.Kimbemba.Controllers
         [HttpPost]
         public async Task<IActionResult> GerarCodigoBarra(GerarCodigoBarraViewModel obj)
         {
-            var codigoBarra = await _codigoBarraServico.Gerar(obj);
+            var codigoBarra = await _codigoBarraApp.Gerar(obj);
 
-            if (codigoBarra.Success) return RedirectToAction(nameof(Index));
+            if (codigoBarra) return RedirectToAction(nameof(Index));
 
             return View(obj);
 
@@ -43,7 +44,7 @@ namespace PEALSystem.Kimbemba.Controllers
         {
             if (string.IsNullOrWhiteSpace(codigo)) return NotFound();
 
-            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+            var codigoBarra = await _codigoBarraApp.BuscarPorCodigo(codigo);
 
             if (codigoBarra == null) return NotFound();
 
@@ -54,7 +55,7 @@ namespace PEALSystem.Kimbemba.Controllers
         {
             if (string.IsNullOrWhiteSpace(codigo)) return NotFound();
 
-            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+            var codigoBarra = await _codigoBarraApp.BuscarPorCodigo(codigo);
 
             if (codigoBarra == null) return NotFound();
 
@@ -64,11 +65,11 @@ namespace PEALSystem.Kimbemba.Controllers
         [HttpPost, ActionName("Remove")]
         public async Task<IActionResult> RemoveConfirmed(string codigo)
         {
-            var codigoBarra = await _codigoBarraServico.BuscarPorCodigo(codigo);
+            var codigoBarra = await _codigoBarraApp.BuscarPorCodigo(codigo);
 
-            var resultado = await _codigoBarraServico.Remover(codigoBarra);
+            var resultado = await _codigoBarraApp.Remover(codigoBarra);
 
-            if (resultado.Success) return RedirectToAction(nameof(Index));
+            if (resultado.IsValid) return RedirectToAction(nameof(Index));
 
             return View(codigoBarra);
         }
@@ -81,9 +82,10 @@ namespace PEALSystem.Kimbemba.Controllers
         [HttpPost, ActionName("RemoveAll")]
         public async Task<IActionResult> RemoveAllConfirmed()
         {
-            var resultado = await _codigoBarraServico.RemoverTodos();
-            if (resultado.Success) 
+            var resultado = await _codigoBarraApp.RemoverTodos();
+            if (resultado)
                 return RedirectToAction(nameof(Index));
+
             return View();
         }
 

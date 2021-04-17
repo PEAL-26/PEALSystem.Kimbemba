@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PEALSystem.Kimbemba.Configuracoes;
+using PEALSystem.Kimbemba.Infra.CrossCutting.IoC;
 using System;
 using System.Collections.Generic;
 using System.Linq;

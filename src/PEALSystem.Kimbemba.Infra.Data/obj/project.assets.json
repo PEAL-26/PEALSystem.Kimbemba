@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Flunt/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Flunt.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -2204,10 +2213,36 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "PEALSystem.Kimbemba.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Flunt": "2.0.1"
+        },
+        "compile": {
+          "bin/placeholder/PEALSystem.Kimbemba.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PEALSystem.Kimbemba.Dominio.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Flunt/2.0.1": {
+      "sha512": "MVs1rH6IG6N5cQZ6CFp7wijXNib3J1ASqCobUCO9bT9aE/BpXGuARpNfMtsLMvj1eXoDws8PJF0hB8gSwcvoyg==",
+      "type": "package",
+      "path": "flunt/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.2.0.1.nupkg.sha512",
+        "flunt.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Flunt.dll"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -7515,6 +7550,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "PEALSystem.Kimbemba.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../PEALSystem.Kimbemba.Dominio/PEALSystem.Kimbemba.Dominio.csproj",
+      "msbuildProject": "../PEALSystem.Kimbemba.Dominio/PEALSystem.Kimbemba.Dominio.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7528,6 +7568,7 @@
       "Microsoft.Extensions.Configuration >= 5.0.0",
       "Microsoft.Extensions.Configuration.FileExtensions >= 5.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0",
+      "PEALSystem.Kimbemba.Dominio >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 3.2.4",
       "Pomelo.EntityFrameworkCore.MySql.Design >= 1.1.2"
     ]
@@ -7565,7 +7606,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Dominio\\PEALSystem.Kimbemba.Dominio.csproj": {
+              "projectPath": "C:\\#PEAL\\Dev\\PEAL\\PEALSystem.Kimbemba\\src\\PEALSystem.Kimbemba.Dominio\\PEALSystem.Kimbemba.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

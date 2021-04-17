@@ -175,3 +175,11 @@ C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNe
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Apresentacao.ApsNetCore.dll
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Apresentacao.ApsNetCore.pdb
 C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\obj\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Apresentacao.ApsNetCore.genruntimeconfig.cache
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Aplicacao.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.dll
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Aplicacao.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Dominio.pdb
+C:\#PEAL\Dev\PEAL\PEALSystem.Kimbemba\src\PEALSystem.Kimbemba.Apresentacao.ApsNetCore\bin\Debug\netcoreapp3.1\PEALSystem.Kimbemba.Infra.Data.pdb

@@ -29,4 +29,13 @@
     <PackageReference Include="ZXing.Net" Version="0.16.6" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configuracoes\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Aplicacao\PEALSystem.Kimbemba.Aplicacao.csproj" />
+    <ProjectReference Include="..\PEALSystem.Kimbemba.Infra.CrossCutting.IoC\PEALSystem.Kimbemba.Infra.CrossCutting.IoC.csproj" />
+  </ItemGroup>
+
 </Project>
